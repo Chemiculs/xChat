@@ -1,0 +1,10 @@
+c:\users\lane\documents\visual studio 2010\Projects\xChatLib\xChatLib\bin\Debug\xChatLib.pdb
+c:\users\lane\documents\visual studio 2010\Projects\xChatLib\xChatLib\obj\Debug\xChatLib.dll
+c:\users\lane\documents\visual studio 2010\Projects\xChatLib\xChatLib\obj\Debug\xChatLib.pdb
+C:\Users\Lane\documents\visual studio 2010\Projects\xChatLib\xChatLib\obj\Debug\xChatLib.csprojResolveAssemblyReference.cache
+C:\Users\Lane\documents\visual studio 2010\Projects\xChatLib\xChatLib\bin\Debug\xChatLib.dll
+C:\Users\Lane\Documents\Visual Studio 2012\Projects\xChatLib\xChatLib\bin\Debug\xChatLib.dll
+C:\Users\Lane\Documents\Visual Studio 2012\Projects\xChatLib\xChatLib\bin\Debug\xChatLib.pdb
+C:\Users\Lane\Documents\Visual Studio 2012\Projects\xChatLib\xChatLib\obj\Debug\xChatLib.csprojResolveAssemblyReference.cache
+C:\Users\Lane\Documents\Visual Studio 2012\Projects\xChatLib\xChatLib\obj\Debug\xChatLib.dll
+C:\Users\Lane\Documents\Visual Studio 2012\Projects\xChatLib\xChatLib\obj\Debug\xChatLib.pdb

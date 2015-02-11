@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
 using System.Drawing.Imaging;
+using xChatLib.Networking;
 namespace xChatLib
 {
     public class xUser
@@ -19,9 +20,18 @@ namespace xChatLib
 				return _Name;
 			}
 			set {
-
+                _Name = value;
 			}
 		}
+        public Image Image
+        {
+            get {
+                return _Image;
+            }
+            set {
+                _Image = value;
+            }
+        }
         #endregion
         #region Events / Delegates
         #endregion

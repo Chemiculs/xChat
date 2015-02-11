@@ -8,3 +8,10 @@ C:\Users\Lane\Documents\Visual Studio 2012\Projects\xChatLib\xChatLib\bin\Debug\
 C:\Users\Lane\Documents\Visual Studio 2012\Projects\xChatLib\xChatLib\obj\Debug\xChatLib.csprojResolveAssemblyReference.cache
 C:\Users\Lane\Documents\Visual Studio 2012\Projects\xChatLib\xChatLib\obj\Debug\xChatLib.dll
 C:\Users\Lane\Documents\Visual Studio 2012\Projects\xChatLib\xChatLib\obj\Debug\xChatLib.pdb
+Z:\Coding\xChat\xChatLib\bin\Debug\xChatLib.dll
+Z:\Coding\xChat\xChatLib\bin\Debug\xChatLib.pdb
+Z:\Coding\xChat\xChatLib\obj\Debug\xChatLib.dll
+Z:\Coding\xChat\xChatLib\obj\Debug\xChatLib.pdb
+Z:\Coding\xChat\xChatLib\bin\Debug\Newtonsoft.Json.dll
+Z:\Coding\xChat\xChatLib\bin\Debug\Newtonsoft.Json.xml
+Z:\Coding\xChat\xChatLib\obj\Debug\xChatLib.csprojResolveAssemblyReference.cache

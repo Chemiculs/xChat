@@ -5,7 +5,8 @@ using System.Net;
 using System.Net.Sockets;
 using System.IO;
 using System.Security.Cryptography;
-namespace xChatLib
+using xChatLib.Core;
+namespace xChatLib.Networking
 {
     #region Asynchronus Server
     public class AsyncTcpServer : IDisposable
@@ -94,8 +95,8 @@ namespace xChatLib
         private Socket _Socket = null;
         private uint _Recieved = uint.MinValue;
         private uint _Sent = uint.MinValue;
-        private RC4 _InCipher = null;
-        private RC4 _OutCipher = null;
+        private xChatLib.External.RC4 _InCipher = null;
+        private xChatLib.External.RC4 _OutCipher = null;
         private byte[] _Buffer = new byte[65535];
         #endregion
         #region Accessors
@@ -132,8 +133,8 @@ namespace xChatLib
         {
             try
             {
-                _InCipher = new RC4(Constants.Ansi.GetBytes(Key));
-                _OutCipher = new RC4(Constants.Ansi.GetBytes(Key));
+                _InCipher = new xChatLib.External.RC4(Constants.Ansi.GetBytes(Key));
+                _OutCipher = new xChatLib.External.RC4(Constants.Ansi.GetBytes(Key));
                 _Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                 _Socket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.Linger, false);
                 _Socket.Connect(new IPEndPoint(Address, Port));
@@ -148,8 +149,8 @@ namespace xChatLib
         {
             try
             {
-                _InCipher = new RC4(Constants.Ansi.GetBytes(Key));
-                _OutCipher = new RC4(Constants.Ansi.GetBytes(Key));
+                _InCipher = new xChatLib.External.RC4(Constants.Ansi.GetBytes(Key));
+                _OutCipher = new xChatLib.External.RC4(Constants.Ansi.GetBytes(Key));
                 _Socket = Connection;
                 _Socket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.Linger, false);
                 _Socket.BeginReceive(_Buffer, 0, _Buffer.Length, SocketFlags.None, new AsyncCallback(RecieveCallback), null);

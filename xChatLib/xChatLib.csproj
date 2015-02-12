@@ -21,7 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -41,7 +41,8 @@
     <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\Configuration.cs" />
+    <Compile Include="Server\Configuration.cs" />
+    <Compile Include="Core\Events\Server\UserConnected.cs" />
     <Compile Include="Networking\SocketBase.cs" />
     <Compile Include="Core\Constants.cs" />
     <Compile Include="Core\Utils.cs" />
@@ -58,6 +59,7 @@
     <Folder Include="Security\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="config-default.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,11 @@
+Z:\Coding\xChat\xChat_Server\obj\Debug\xChat_Server.csprojResolveAssemblyReference.cache
+Z:\Coding\xChat\xChat_Server\bin\Debug\xChat_Server.exe.config
+Z:\Coding\xChat\xChat_Server\bin\Debug\xChat_Server.exe
+Z:\Coding\xChat\xChat_Server\bin\Debug\xChat_Server.pdb
+Z:\Coding\xChat\xChat_Server\bin\Debug\xChatLib.dll
+Z:\Coding\xChat\xChat_Server\bin\Debug\Newtonsoft.Json.dll
+Z:\Coding\xChat\xChat_Server\bin\Debug\xChatLib.pdb
+Z:\Coding\xChat\xChat_Server\bin\Debug\Newtonsoft.Json.xml
+Z:\Coding\xChat\xChat_Server\obj\Debug\xChat_Server.exe
+Z:\Coding\xChat\xChat_Server\obj\Debug\xChat_Server.pdb
+Z:\Coding\xChat\xChat_Server\bin\Debug\config-default.json

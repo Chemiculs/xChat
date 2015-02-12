@@ -1,0 +1,12 @@
+﻿{
+  "port": 12345,
+  "name": "xChat Server",
+  "welcomeMessage": "Welcome to xChat Server",
+  "whiteList": "whitelist.txt",
+  "blackList": "blacklist.txt",
+  "key": "aBcD1@3$",
+  "admins": [
+    1,
+    2
+  ]
+}
